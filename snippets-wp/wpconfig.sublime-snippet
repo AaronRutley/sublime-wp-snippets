@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+define('WP_HOME','http://${1});
+define('WP_SITEURL','http://${1}/wp');
+define('WP_POST_REVISIONS', 5);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>wpconfig</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<?php if(get_field('${1}')): ?>
+	<?php while(the_repeater_field('${1}')): ?>
+		<?php the_sub_field('${2}'); ?>
+	<?php endwhile; ?>
+<?php endif; ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>acfr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

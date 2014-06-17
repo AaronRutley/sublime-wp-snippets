@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<?php echo do_shortcode('[gravityform id=${1} title=false description=false]'); ?>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wpshort</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

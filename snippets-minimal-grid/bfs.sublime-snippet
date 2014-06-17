@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+@include breakpoint(from-small) {
+    @include grid(${1});
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bfs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

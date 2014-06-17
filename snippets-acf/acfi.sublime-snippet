@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<?php   \$thumb = wp_get_attachment_image_src(get_sub_field('${1}'), 'thumb-${2}');  ?>
+<img src="<?php echo \$thumb[0]; ?>" />
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>acfi</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
